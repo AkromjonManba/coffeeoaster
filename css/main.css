@@ -196,7 +196,6 @@ img{
 
 .collection__box{
   position: relative;
-  display: inline-block;
   background: #F8F8F2;
   padding: 50px 0;
   text-align: center;
@@ -205,7 +204,7 @@ img{
 .collection__box::before{
   position: absolute;
   bottom: 180px;
-  left: -200px;
+  left: calc(50% - 900px);
   display: block;
   width: 316px;
   height: 285px;
