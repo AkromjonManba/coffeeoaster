@@ -1,0 +1,116 @@
+ /* work section */
+  
+ .work__section{
+    padding: 20px 20px 50px;
+  }
+  
+  .work__section__box{
+    padding: 50px 30px;
+    background-image: url("../images/but-first-coffee.png"), url("../images/line-img.png"), url("../images/background_repeat__img.png");
+    background-blend-mode: normal, normal, overlay;
+    background-repeat: no-repeat;
+    background-size: 215px 177px, 889px 2px, 100% 100%;
+    background-position: calc(50% + 520px) calc(50% - 280px), calc(50% - 188px) calc(50% - 194px), center;
+    background-color: #0A775F;
+    text-align: center;
+  }
+  
+  .work__section__title{
+    margin: 0;
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    font-variant: small-caps;
+    color: #FFFFFF;
+  }
+  
+  .work__section__kubiks__boxs{
+    display: flex;
+    justify-content: space-between;
+    width: 966px;
+  }
+  
+  .work__section__kubik{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    background-color: #F8F8F2;
+    border: 4px solid #C99B67;
+  }
+  
+  .work__section__list{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .work__section__item{
+    width: 433px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    padding: 20px 20px 40px 20px;
+    background-color: #F8F8F2;
+    text-align: end;
+  }
+  
+  .work__section__item:nth-child(3){
+    margin-right: 0;
+  }
+  
+  .work__section__number{
+    display: inline-block;
+    margin-bottom: 45px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    font-variant: small-caps;
+    color: #333333;
+    opacity: 0.8;
+  }
+  
+  .work__section__subject-box{
+    width: 231px;
+  }
+  
+  .work__section__subject{
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    font-variant: small-caps;
+    text-align: start;
+    color: #333333;
+  }
+  
+  .work__section__info{
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: start;
+    color: #333333;
+  }
+  
+  .work__section__link{
+    display: inline-block;
+    width: 193px;
+    padding: 16px 24px;
+    background: #C99B67;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  
+  
+  /* work section  */
